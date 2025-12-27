@@ -15,6 +15,7 @@ int main() {
     cout << "BST Berdasarkan Berat";
     cout << " " << endl;
 
+
     do {
         tampilkanMenu();
         cout << "Pilihan Anda: ";
@@ -44,17 +45,6 @@ int main() {
             break;
 
         case 5:
-            cout << "Nama hewan: ";
-            cin >> ws;
-            getline(cin, nama);
-            hasil = searchByName(root, nama);
-            if (hasil)
-                printHewan(hasil->info);
-            else
-                cout << "Tidak ditemukan\n";
-            break;
-
-        case 6:
             cout << "Berat: ";
             cin >> berat;
             hasil = searchByBerat(root, berat);
@@ -64,23 +54,23 @@ int main() {
                 cout << "Tidak ditemukan\n";
             break;
 
-        case 7:
+        case 6:
             cout << "Habitat: ";
             cin >> ws;
             getline(cin, habitat);
             printByHabitat(root, habitat);
             break;
 
-        case 8:
+        case 7:
             printDilindungi(root);
             break;
 
-        case 9:
+        case 8:
             cout << "Berat yang dihapus: ";
             cin >> berat;
             deleteHewan(root, berat);
             break;
-        case 10:
+        case 9:
                 cout << "\n=== STATISTIK HEWAN ===" << endl;
                 cout << "Total hewan          : " << countHewan(root) << endl;
                 cout << "Kedalaman tree       : " << hitungKedalaman(root) << endl;

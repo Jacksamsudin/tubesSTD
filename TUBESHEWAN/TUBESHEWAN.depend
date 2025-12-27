@@ -1,13 +1,13 @@
 # depslib dependency file v1.0
-1766589779 source:d:\telkom university\latihan c++\tubeshewan\hewan.cpp
+1766816720 source:d:\telkom university\latihan c++\tubeshewan\hewan.cpp
 	"hewan.h"
 	<iostream>
 
-1766814586 d:\telkom university\latihan c++\tubeshewan\hewan.h
+1766816055 d:\telkom university\latihan c++\tubeshewan\hewan.h
 	<iostream>
 	<string>
 
-1766771141 source:d:\telkom university\latihan c++\tubeshewan\main.cpp
+1766816723 source:d:\telkom university\latihan c++\tubeshewan\main.cpp
 	"hewan.h"
 	<iostream>
 
